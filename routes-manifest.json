@@ -1,0 +1,212 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/banners",
+      "regex": "^/banners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/banners(?:/)?$"
+    },
+    {
+      "page": "/cart",
+      "regex": "^/cart(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cart(?:/)?$"
+    },
+    {
+      "page": "/comments",
+      "regex": "^/comments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/comments(?:/)?$"
+    },
+    {
+      "page": "/face_rating/basic",
+      "regex": "^/face_rating/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/face_rating/basic(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/image_carousel/basic",
+      "regex": "^/image_carousel/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/image_carousel/basic(?:/)?$"
+    },
+    {
+      "page": "/image_viewer/basic",
+      "regex": "^/image_viewer/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/image_viewer/basic(?:/)?$"
+    },
+    {
+      "page": "/image_viewer/motion",
+      "regex": "^/image_viewer/motion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/image_viewer/motion(?:/)?$"
+    },
+    {
+      "page": "/input",
+      "regex": "^/input(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/input(?:/)?$"
+    },
+    {
+      "page": "/like_rating",
+      "regex": "^/like_rating(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/like_rating(?:/)?$"
+    },
+    {
+      "page": "/page",
+      "regex": "^/page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/page(?:/)?$"
+    },
+    {
+      "page": "/phone_number",
+      "regex": "^/phone_number(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/phone_number(?:/)?$"
+    },
+    {
+      "page": "/price_format/basic",
+      "regex": "^/price_format/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/price_format/basic(?:/)?$"
+    },
+    {
+      "page": "/price_format/sale",
+      "regex": "^/price_format/sale(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/price_format/sale(?:/)?$"
+    },
+    {
+      "page": "/product",
+      "regex": "^/product(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/product(?:/)?$"
+    },
+    {
+      "page": "/product/product_Variants",
+      "regex": "^/product/product_Variants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/product/product_Variants(?:/)?$"
+    },
+    {
+      "page": "/quantity",
+      "regex": "^/quantity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/quantity(?:/)?$"
+    },
+    {
+      "page": "/star_rating/basic",
+      "regex": "^/star_rating/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/star_rating/basic(?:/)?$"
+    },
+    {
+      "page": "/star_rating/fractions",
+      "regex": "^/star_rating/fractions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/star_rating/fractions(?:/)?$"
+    },
+    {
+      "page": "/upvote_rating/basic",
+      "regex": "^/upvote_rating/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/upvote_rating/basic(?:/)?$"
+    },
+    {
+      "page": "/upvote_rating/motion",
+      "regex": "^/upvote_rating/motion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/upvote_rating/motion(?:/)?$"
+    },
+    {
+      "page": "/variant_color_selector/basic",
+      "regex": "^/variant_color_selector/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/variant_color_selector/basic(?:/)?$"
+    },
+    {
+      "page": "/variant_selector/basic",
+      "regex": "^/variant_selector/basic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/variant_selector/basic(?:/)?$"
+    },
+    {
+      "page": "/variant_selector/multiple",
+      "regex": "^/variant_selector/multiple(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/variant_selector/multiple(?:/)?$"
+    },
+    {
+      "page": "/variant_selector/picture",
+      "regex": "^/variant_selector/picture(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/variant_selector/picture(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

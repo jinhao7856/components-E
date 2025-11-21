@@ -1,0 +1,3 @@
+module.exports=[8222,a=>{"use strict";var b=a.i(30240),c=a.i(58491),d=a.i(13346);a.s(["default",0,({className:a,decimalScale:e=2,decimalSeparator:f=",",prefix:g="¥",thousandSeparator:h=".",value:i})=>(0,b.jsx)(d.NumericFormat,{value:i,thousandSeparator:h,decimalSeparator:f,decimalScale:e,prefix:g,displayType:"text",className:(0,c.cn)("text-lg font-medium",a)})])},32637,a=>{"use strict";let b=(0,a.i(36111).default)("map-pin",[["path",{d:"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",key:"1r0f0z"}],["circle",{cx:"12",cy:"10",r:"3",key:"ilqhr7"}]]);a.s(["MapPin",()=>b],32637)}];
+
+//# sourceMappingURL=Desktop_resume_my_resume_ec2dc54c._.js.map

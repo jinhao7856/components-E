@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/variant_selector/layout,_N_T_/variant_selector/basic/layout,_N_T_/variant_selector/basic/page,_N_T_/variant_selector/basic"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/variant_selector/basic/__PAGE__",
+    "/variant_selector/basic",
+    "/variant_selector",
+    "/_index"
+  ]
+}
